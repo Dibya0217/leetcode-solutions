@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0747-largest-number-at-least-twice-of-others](https://github.com/Dibya0217/leetcode-solutions/tree/master/0747-largest-number-at-least-twice-of-others) |
 | [0905-sort-array-by-parity](https://github.com/Dibya0217/leetcode-solutions/tree/master/0905-sort-array-by-parity) |
 | [1051-height-checker](https://github.com/Dibya0217/leetcode-solutions/tree/master/1051-height-checker) |
+| [1295-find-numbers-with-even-number-of-digits](https://github.com/Dibya0217/leetcode-solutions/tree/master/1295-find-numbers-with-even-number-of-digits) |
 | [3875-construct-uniform-parity-array-i](https://github.com/Dibya0217/leetcode-solutions/tree/master/3875-construct-uniform-parity-array-i) |
 ## Two Pointers
 |  |
@@ -72,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0066-plus-one](https://github.com/Dibya0217/leetcode-solutions/tree/master/0066-plus-one) |
 | [0189-rotate-array](https://github.com/Dibya0217/leetcode-solutions/tree/master/0189-rotate-array) |
+| [1295-find-numbers-with-even-number-of-digits](https://github.com/Dibya0217/leetcode-solutions/tree/master/1295-find-numbers-with-even-number-of-digits) |
 | [3875-construct-uniform-parity-array-i](https://github.com/Dibya0217/leetcode-solutions/tree/master/3875-construct-uniform-parity-array-i) |
 ## Prefix Sum
 |  |
