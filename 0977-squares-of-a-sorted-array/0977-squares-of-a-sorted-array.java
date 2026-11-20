@@ -2,20 +2,20 @@ class Solution {
     public int[] sortedSquares(int[] nums) {
         int left = 0;
         int right = nums.length - 1;
-        int[] result = new int[nums.length]; 
+        int [] num = new int[nums.length];
 
-        for(int i = nums.length - 1; i >= 0; i--) {
+        for(int i = num.length - 1; i >= 0; i--) {
             int leftSquares = nums[left] * nums[left];
             int rightSquares = nums[right] * nums[right];
 
             if(leftSquares > rightSquares) {
-                result[i] = leftSquares;
+                num[i] = leftSquares;
                 left++;
             } else {
-                result[i] = rightSquares;
+                num[i] = rightSquares;
                 right--;
             }
         }
-        return result;
+        return num;
     }
 }
