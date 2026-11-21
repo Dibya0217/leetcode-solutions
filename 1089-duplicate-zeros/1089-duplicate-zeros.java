@@ -3,10 +3,11 @@ class Solution {
         int possibleDuplicate = 0;
         int lastIndex = arr.length - 1;
 
-        for(int i = 0 ; i <= lastIndex-possibleDuplicate; i++) {
+        for(int i = 0; i <= lastIndex - possibleDuplicate; i++) {
             if(arr[i] == 0) {
                 if(i == lastIndex - possibleDuplicate) {
-                    arr[lastIndex--] = 0;
+                    arr[lastIndex] = 0;
+                    lastIndex--;
                     break;
                 }
                 possibleDuplicate++;
@@ -17,11 +18,11 @@ class Solution {
 
         for(int i = newLastIndex; i >= 0; i--) {
             if(arr[i] == 0) {
-                arr[i + possibleDuplicate] = 0;
+                arr[i+possibleDuplicate] = 0;
                 possibleDuplicate--;
-                arr[i + possibleDuplicate] = 0;
+                arr[i+possibleDuplicate] = 0;
             }
-            arr[i + possibleDuplicate] = arr[i];
+            arr[i+possibleDuplicate] = arr[i];
         }
     }
 }
