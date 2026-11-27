@@ -10,12 +10,11 @@ class Solution {
                 max3 = max2;
                 max2 = max1;
                 max1 = nums[i];
-            } else if(max2 == null || nums[i] > max2) {
+            } else if(max2 == null || max2 < nums[i]) {
                 max3 = max2;
                 max2 = nums[i];
-            } else if(max3 == null || nums[i] > max3) max3 = nums[i];
+            } else if(max3 == null || max3 < nums[i]) max3 = nums[i];
         }
-
         if(max3 != null) return max3;
         return max1;
     }
